@@ -20,12 +20,12 @@ $ sudo gcc -ansi -Wpedantic -Wextra -Wall main.c -o exe
 
 Giving a sample matrix of numbers:
 
- 0 | 0 | 0 | `8` | 0 | 0 | 0 | 3 | 0 | 0 | 0 |
+ 0 | 0 | 0 | `8` | 0 | 0 | 0 | `3` | 0 | 0 | 0 |
 ---|---|---|---|---|---|---|---|---|---|---|
- 0 | 0 | 0 | 0 | 0 | 3 | 0 | 0 | 0 | 0 | 8 |
- 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
- 0 | 0 | 7 | 0 | 0 | 0 | 0 | 5 | 0 | 0 | 0 |
- 0 | 0 | 0 | 8 | 0 | 0 | 0 | 0 | 0 | 8 | 0 |
+ 0 | 0 | 0 | 0 | 0 | `3` | 0 | 0 | 0 | 0 | `8` |
+ `2` | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+ 0 | 0 | `7` | 0 | 0 | 0 | 0 | `5` | 0 | 0 | 0 |
+ 0 | 0 | 0 | 8 | 0 | 0 | 0 | 0 | 0 | `8` | 0 |
 
 We immediately notice the overwhelming issue with this matrix that it has too many 0's which don't necessarilly need to use up space hence they could just be left out. 
 
